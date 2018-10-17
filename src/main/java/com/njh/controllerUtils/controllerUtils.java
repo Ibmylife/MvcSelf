@@ -14,6 +14,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.*;
 
 public class controllerUtils {
+    //浏览的包
     private static String scanPackage;
     private static List<String> className = new ArrayList<>();
     //保存,类名和类
@@ -35,7 +36,7 @@ public class controllerUtils {
         }
     }
 
-    public void deal(Map<String, Object> classForControlle,
+    public void deal(Map<String, Object> classForController,
                      Map<Object, String> objectForControllerMethod,
                      Map<String, Object> urlForControllerObject,
                      Map<String, Method> urlForControllerMethod)
